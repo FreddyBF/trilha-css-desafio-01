@@ -1,10 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
 }
 body {
     background-color: #0a0a0a;
@@ -20,6 +21,7 @@ body {
         rgba(51, 168, 219, 0.15) 0%,
         rgba(0, 0, 0, 0.08) 100%
       );
+
     border-bottom: thin solid #33A8DB;
     color: #33A8DB;
     display: flex;
@@ -64,7 +66,7 @@ body {
     height: 57px;
     background-color: transparent;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bold;
     color: #33A8DB;
 }
 
@@ -109,6 +111,7 @@ body {
 
 .module span {
     color: #3BA1CD;
+    white-space: pre;
 }
 
 #transform-world {
@@ -117,7 +120,6 @@ body {
    background-image: url('../images/woman-code.png');
    background-size: cover;
    background-position: center;
-
    border-top: thin solid #33A8DB;
 
 }
@@ -137,7 +139,6 @@ body {
     border-top: thin solid #33A8DB;
     border-bottom: thin solid #33A8DB;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     padding: 40px;
@@ -146,8 +147,8 @@ body {
 #professional-challenges h2 {
     color: #3BA1CD;
     text-transform: uppercase;
-    padding: 0 60px;
     text-align: center;
+    padding: 0 350px;
 }
 
 #professional-challenges p {
